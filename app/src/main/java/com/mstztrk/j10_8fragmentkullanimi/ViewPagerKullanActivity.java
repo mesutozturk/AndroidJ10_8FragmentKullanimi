@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
+import com.ToxicBakery.viewpager.transforms.CubeInTransformer;
 import com.ToxicBakery.viewpager.transforms.ScaleInOutTransformer;
 import com.mstztrk.j10_8fragmentkullanimi.fragments.Ekran1Frag;
 import com.mstztrk.j10_8fragmentkullanimi.fragments.Ekran2Frag;
@@ -70,7 +71,7 @@ public class ViewPagerKullanActivity extends AppCompatActivity {
             }
         });
 
-        //vp.setPageTransformer(true, new CubeInTransformer());
+        vp.setPageTransformer(true, new CubeInTransformer());
         vp.setPageTransformer(true, new ScaleInOutTransformer());
         vp.postDelayed(new Runnable() {
             @Override
