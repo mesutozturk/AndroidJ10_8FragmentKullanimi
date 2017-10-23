@@ -24,11 +24,30 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FragmentDegistrenActivity"
+            android:label="Fragment Değiştirme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StatikFragmentActivity"
+            android:label="Statik Fragment Kullanımı">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             </intent-filter>
         </activity>
-        <activity android:name=".FragmentDegistrenActivity"
-            android:label="Fragment Değiştirme">
+        <activity
+            android:name=".ViewPagerKullanActivity"
+            android:label="View Pager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
